@@ -60,5 +60,12 @@
     <orderEntry type="library" name="poolboy" level="project" />
     <orderEntry type="library" name="mariaex" level="project" />
     <orderEntry type="library" name="sbroker" level="project" />
+    <orderEntry type="library" name="ueberauth" level="project" />
+    <orderEntry type="library" name="ueberauth_github" level="project" />
+    <orderEntry type="library" name="credo" level="project" />
+    <orderEntry type="library" name="oauth2" level="project" />
+    <orderEntry type="library" name="bypass" level="project" />
+    <orderEntry type="library" name="excoveralls" level="project" />
+    <orderEntry type="library" name="dialyxir" level="project" />
   </component>
 </module>
