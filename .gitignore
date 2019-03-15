@@ -1,6 +1,9 @@
 # IDE files
 .idea/
 
+#omit file with API keys
+config/config.exs
+
 # App artifacts
 /_build
 /db
