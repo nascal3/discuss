@@ -6,10 +6,11 @@ defmodule Discuss.CommentsChannel do
    topic_id = String.to_integer(topic_id)
    topic = Repo.get(Topic, topic_id)
 
-   {:ok, topic, socket}
+   {:ok, %{}, socket}
   end
 
   def handle_in(name, message, socket) do
+    %{"content" => content} = message
 
     {:reply, :ok, socket}
   end
